@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ThaiQRPaymentGenerator_Example' do
+  pod 'ThaiQRPaymentGenerator', :path => '../'
+
+  target 'ThaiQRPaymentGenerator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
