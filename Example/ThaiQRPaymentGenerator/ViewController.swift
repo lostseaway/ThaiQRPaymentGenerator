@@ -7,17 +7,21 @@
 //
 
 import UIKit
+import ThaiQRPaymentGenerator
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var QRImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        
+        let qrString = ThaiQRPaymentGenerator.generate(type: Prompay.nationalId(nationalId: "1111111111111"), paymentAmount: nil, isReusable: true)
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        print(qrString)
+
+        let qrImage = ThaiQRPaymentGenerator.generateQRImage(from: qrString)
+
+        QRImageView.image = qrImage
     }
 
 }

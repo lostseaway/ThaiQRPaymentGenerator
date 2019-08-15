@@ -1,0 +1,16 @@
+PODS:
+  - ThaiQRPaymentGenerator (0.1.0)
+
+DEPENDENCIES:
+  - ThaiQRPaymentGenerator (from `../`)
+
+EXTERNAL SOURCES:
+  ThaiQRPaymentGenerator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ThaiQRPaymentGenerator: bb586c7727a56f8f4646f085a0e4cea76eb65427
+
+PODFILE CHECKSUM: 2cafd151be4c5fcfc792dbbf7a7f5f7d3dffc724
+
+COCOAPODS: 1.6.0

@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D4B850E8632180ADDD84433 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		21B8219048448C6E4F352273 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		34D3968D85ED839A8687172E /* ThaiQRPaymentGenerator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ThaiQRPaymentGenerator.podspec; path = ../ThaiQRPaymentGenerator.podspec; sourceTree = "<group>"; };
+		1D4B850E8632180ADDD84433 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		21B8219048448C6E4F352273 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		34D3968D85ED839A8687172E /* ThaiQRPaymentGenerator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ThaiQRPaymentGenerator.podspec; path = ../ThaiQRPaymentGenerator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		50C2DAEE26DBEC01C69F6C21 /* Pods-ThaiQRPaymentGenerator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThaiQRPaymentGenerator_Example.debug.xcconfig"; path = "Target Support Files/Pods-ThaiQRPaymentGenerator_Example/Pods-ThaiQRPaymentGenerator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ThaiQRPaymentGenerator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThaiQRPaymentGenerator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				7FFA016D6622CE872ED91F84 /* Pods-ThaiQRPaymentGenerator_Tests.debug.xcconfig */,
 				C058F2F945CDB468909AF57B /* Pods-ThaiQRPaymentGenerator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

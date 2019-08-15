@@ -1,0 +1,22 @@
+{
+  "name": "ThaiQRPaymentGenerator",
+  "version": "0.1.0",
+  "summary": "A short description of ThaiQRPaymentGenerator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lostseaway/ThaiQRPaymentGenerator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lostseaway": "lostseaway@me.com"
+  },
+  "source": {
+    "git": "https://github.com/lostseaway/ThaiQRPaymentGenerator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ThaiQRPaymentGenerator/Classes/**/*"
+}

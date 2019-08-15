@@ -1,0 +1,6 @@
+framework module ThaiQRPaymentGenerator {
+  umbrella header "ThaiQRPaymentGenerator-umbrella.h"
+
+  export *
+  module * { export * }
+}
