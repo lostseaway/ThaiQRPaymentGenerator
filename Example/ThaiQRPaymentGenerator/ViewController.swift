@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let qrString = ThaiQRPaymentGenerator.generate(type: Prompay.nationalId(nationalId: "1111111111111"), paymentAmount: nil, isReusable: true)
+        let qrString = ThaiQRPaymentGenerator.generate(type: Prompay(prompayId: "1111111111111"), paymentAmount: nil, isReusable: true)
 
         print(qrString)
 

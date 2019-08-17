@@ -3,7 +3,7 @@
 //
 
 import UIKit
-public class ThaiQRPaymentGenerator {
+@objc public class ThaiQRPaymentGenerator: NSObject {
     public static func generate(type: PaymentableType, paymentAmount: Double?, isReusable: Bool) -> String {
         var template = "000201"
         

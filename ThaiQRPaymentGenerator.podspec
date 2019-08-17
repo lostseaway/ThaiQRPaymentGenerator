@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ThaiQRPaymentGenerator'
-  s.version          = '0.1.1'
+  s.version          = '0.2.0'
   s.summary          = 'A Library for generate a QRcode for Thai Prompay and BillPayment'
   s.swift_version    = '4.0'
 

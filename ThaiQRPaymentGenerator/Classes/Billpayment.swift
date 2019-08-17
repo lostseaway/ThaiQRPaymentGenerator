@@ -2,12 +2,12 @@
 //  Created by LostSeaWay on 16/8/2562 BE.
 //
 
-public struct Billpayment: PaymentableType {
+@objc public class Billpayment: NSObject, PaymentableType {
     let billerId: String
     let ref1: String
     let ref2: String?
     
-    init(billerId: String, ref1: String, ref2: String) {
+    public init(billerId: String, ref1: String, ref2: String) {
         self.billerId = billerId
         self.ref1 = ref1
         self.ref2 = ref2
